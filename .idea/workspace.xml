@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c33b764-0f84-43ca-84bf-cd36e9c99d62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Dimonstrate.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/fonts.scss" afterDir="false" />
+    <list default="true" id="7c33b764-0f84-43ca-84bf-cd36e9c99d62" name="Default Changelist" comment="project init">
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Modals/Person_aside.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Modules/Last-release.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Page/Page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Pages/Admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Pages/Band_Link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Pages/Main_page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Routing/Routing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/aSide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/Dimonstrate cite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/dimonstrate-band_link.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/fonts/Streamster.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/fonts/Streamster.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/fonts/Streamster.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/fonts/Streamster.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/inst_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/last_track.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/person_aside.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/tt_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/vk_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/photoshop/Dimonstrate cite.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/photoshop/dimonstrate pattern.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/photoshop/dimonstrate-band_link.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/aside.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/last_release.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/main_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/normalizer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/var.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.idea/Dimonstrate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.idea/vagrant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/assets/img/inst_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/assets/img/last_track.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/assets/img/person_aside.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/assets/img/tt_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/assets/img/vk_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/webpack.config.js" afterDir="false" />
     </list>
@@ -17,23 +53,50 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1vfYaKqQVw0iWsTsVMGqtZsjhf8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.3.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.3.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\makar\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion.Presentation" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\makar\Desktop\CODE\Dimonstrate\client\src" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
@@ -58,11 +121,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626954673070</updated>
-      <workItem from="1626954674793" duration="309000" />
+      <workItem from="1626954674793" duration="769000" />
+      <workItem from="1626955831044" duration="913000" />
+      <workItem from="1626956975640" duration="2870000" />
+      <workItem from="1626959985982" duration="5927000" />
+      <workItem from="1626968829686" duration="155000" />
+      <workItem from="1626969004740" duration="31000" />
+      <workItem from="1626970850873" duration="41000" />
+      <workItem from="1626970916937" duration="2296000" />
+      <workItem from="1626973232680" duration="10858000" />
     </task>
+    <task id="LOCAL-00001" summary="project init">
+      <created>1626955166389</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626955166389</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="project init" />
+    <option name="LAST_COMMIT_MESSAGE" value="project init" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

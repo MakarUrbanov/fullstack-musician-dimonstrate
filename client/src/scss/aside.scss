@@ -1,0 +1,32 @@
+.aside-wrapper {
+  position: fixed;
+  height: 100%;
+  background-color: #232323;
+}
+
+.aside-body {
+  height: 100%;
+  width: 60px;
+  background-color: #232323;
+}
+
+.aside-socials {
+  margin-top: 140px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  img {
+    margin-top: 40px;
+    cursor: pointer;
+    opacity: 0.85;
+  }
+}
+
+.aside-person {
+  position: fixed;
+  top: 18%;
+  //left: 40px;
+  z-index: -1;
+  transition: 1.5s;
+}

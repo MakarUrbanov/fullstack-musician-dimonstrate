@@ -1,0 +1,49 @@
+@media (max-width: 1300px) {
+  .aside-person {
+    display: none;
+  }
+  .main-wrapper {
+    padding-left: 60px;
+  }
+  #last_release-back-img {
+    background-position-y: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  //.last_release-album-image {
+  //  width: 100%;
+  //}
+  .aside-wrapper {
+    display: none;
+  }
+  .main-wrapper {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .last_release-wrapper {
+    height: 550px;
+  }
+
+  .last_release-album-image {
+    height: 390px;
+    margin: 0;
+    width: 100%;
+  }
+  .last_release-album-img {
+    background-position: center bottom;
+  }
+}
+@media (max-width: 400px) {
+  .last_release-wrapper {
+    height: 500px;
+  }
+
+  .last_release-album-image {
+    height: 340px;
+    margin: 0;
+    width: 100%;
+  }
+}

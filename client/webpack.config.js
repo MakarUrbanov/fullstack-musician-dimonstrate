@@ -35,8 +35,8 @@ module.exports = {
   resolve: {
     extensions: ['.js'],
     alias: {
-      '@components': path.resolve(__dirname, 'src/components'),
-      '@assets': path.resolve(__dirname, 'assets'),
+      '@components': path.resolve(__dirname, 'src/Components'),
+      '@assets': path.resolve(__dirname, 'src/assets'),
     },
   },
   devtool: isDev ? 'source-map' : false,

@@ -1,0 +1,136 @@
+@import 'var';
+
+.last_release-wrapper {
+  height: 600px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.last_release-album-image {
+  width: 400px;
+  height: 440px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-bottom: 5px solid #f6538c;
+  position: relative;
+
+  .last_release-album-img {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: 2s;
+  }
+}
+
+.last_release-album-name {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    font-size: 43px;
+    font-family: $font;
+    font-weight: 300;
+    background-color: #151515;
+    color: white;
+    padding: 3px 10px;
+    user-select: none;
+  }
+}
+
+.last_release-album-button {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  .last_release-listen-wrapper {
+    background-color: white;
+    padding: 2px 2px 0 2px;
+    z-index: 5;
+    position: relative;
+
+    .last_release-listen-line {
+      position: absolute;
+      width: 100%;
+      height: 10px;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      background-color: #f6538c;
+    }
+
+    button {
+      width: 300px;
+      height: 68px;
+      font-size: 26px;
+      font-family: $font;
+      font-weight: 200;
+      background-color: #151515;
+      color: white;
+      border-bottom: 10px solid transparent;
+      border-top: 10px solid transparent;
+      z-index: 10;
+      transition: 0.1s;
+      user-select: none;
+    }
+
+    & button:hover {
+      border-bottom: 10px solid #f6538c;
+      background-color: #f6538c;
+    }
+
+    & button:active {
+      border-bottom: 10px solid transparent;
+      background-color: #151515;
+    }
+  }
+}
+
+.last-release-bottom_line {
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  background-color: #f6538c;
+  //z-index: 3;
+  bottom: 0;
+}
+
+#last_release-back-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -180px;
+  z-index: -1;
+}
+
+.blur {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backdrop-filter: blur(10px);
+}
+
+#last_release-pattern {
+  position: absolute;
+  background-image: url('../assets/img/pattern.png');
+  width: 110%;
+  height: 110%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -30px;
+  background-position-x: -30px;
+  opacity: 0.05;
+  z-index: -1;
+}
