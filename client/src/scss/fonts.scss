@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Conv_Streamster';
+  src: url('@assets/fonts/Streamster.eot');
+  src: local('☺'), url('@assets/fonts/Streamster.woff') format('woff'),
+    url('@assets/fonts/Streamster.ttf') format('truetype'),
+    url('@assets/fonts/Streamster.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
