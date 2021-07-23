@@ -9,13 +9,13 @@ import Header from '@components/Header'
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route>
-          <Header />
-          <ASide />
-          <Routing />
-        </Route>
-      </Switch>
+      {/*<Switch>*/}
+      <Header />
+      <ASide />
+      <Route>
+        <Routing />
+      </Route>
+      {/*</Switch>*/}
     </Router>
   )
 }
