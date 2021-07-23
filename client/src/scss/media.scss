@@ -10,25 +10,45 @@
   }
 }
 
+@media (max-width: 800px) {
+}
+
 @media (max-width: 500px) {
-  //.last_release-album-image {
-  //  width: 100%;
-  //}
   .aside-wrapper {
     display: none;
   }
   .main-wrapper {
     padding-left: 0;
   }
+  .songs-slider-wrapper {
+    width: 100% !important;
+  }
+  .songs-image-wrapper {
+    width: 100%;
+    max-width: none !important;
+  }
+  .songs-item:first-of-type {
+    display: none !important;
+  }
+  .songs-item:last-of-type {
+    display: none !important;
+  }
+  .insta-subscribers-wrapper {
+    flex-flow: column nowrap;
+  }
+  .insta-subscribers-text {
+    padding-left: 0 !important;
+    padding-top: 30px;
+  }
 }
 
 @media (max-width: 450px) {
   .last_release-wrapper {
-    height: 550px;
+    height: 530px;
   }
 
   .last_release-album-image {
-    height: 390px;
+    height: 370px;
     margin: 0;
     width: 100%;
   }
@@ -36,13 +56,25 @@
     background-position: center bottom;
   }
 }
+
 @media (max-width: 400px) {
   .last_release-wrapper {
-    height: 500px;
+    height: 480px;
   }
 
   .last_release-album-image {
-    height: 340px;
+    height: 320px;
+    margin: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  .last_release-wrapper {
+    height: 430px;
+  }
+
+  .last_release-album-image {
+    height: 270px;
     margin: 0;
     width: 100%;
   }

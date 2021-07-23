@@ -1,52 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c33b764-0f84-43ca-84bf-cd36e9c99d62" name="Default Changelist" comment="project init">
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Modals/Person_aside.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Modules/Last-release.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Page/Page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Pages/Admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Pages/Band_Link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Pages/Main_page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Routing/Routing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Components/aSide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/Dimonstrate cite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/dimonstrate-band_link.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/fonts/Streamster.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/fonts/Streamster.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/fonts/Streamster.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/fonts/Streamster.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/inst_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/last_track.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/pattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/person_aside.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/tt_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/img/vk_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/photoshop/Dimonstrate cite.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/photoshop/dimonstrate pattern.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/photoshop/dimonstrate-band_link.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/aside.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/last_release.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/main_page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/normalizer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/var.scss" afterDir="false" />
+    <list default="true" id="7c33b764-0f84-43ca-84bf-cd36e9c99d62" name="Default Changelist" comment="complete home page">
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Modules/Insta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Modules/Songs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/Dimonstrate cite 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/9_floors.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/calmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/inst_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/inst_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/inst_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/inst_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/inst_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/inst_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/inst_ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/img/yo_yo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/insta.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/songs.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/Dimonstrate.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/prettier.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/vagrant.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/img/inst_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/img/last_track.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/img/person_aside.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/img/tt_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/img/vk_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Modules/Last-release.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Modules/Last-release.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Pages/Main_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Pages/Main_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/aSide.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/aSide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/photoshop/Dimonstrate cite.psd" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/photoshop/Dimonstrate cite.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scss/aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss/aside.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/scss/last_release.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss/last_release.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +69,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\makar\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -129,7 +109,10 @@
       <workItem from="1626969004740" duration="31000" />
       <workItem from="1626970850873" duration="41000" />
       <workItem from="1626970916937" duration="2296000" />
-      <workItem from="1626973232680" duration="10858000" />
+      <workItem from="1626973232680" duration="13311000" />
+      <workItem from="1626987493115" duration="929000" />
+      <workItem from="1627020913057" duration="10086000" />
+      <workItem from="1627034183502" duration="11936000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <created>1626955166389</created>
@@ -138,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626955166389</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finish preview of last release">
+      <created>1626984170558</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626984170558</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +149,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="project init" />
-    <option name="LAST_COMMIT_MESSAGE" value="project init" />
+    <MESSAGE value="finish preview of last release" />
+    <MESSAGE value="complete home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete home page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

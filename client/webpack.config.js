@@ -41,6 +41,7 @@ module.exports = {
   },
   devtool: isDev ? 'source-map' : false,
   devServer: {
+    // host: '192.168.0.102',
     port: 3000,
     hot: true,
     inline: true,

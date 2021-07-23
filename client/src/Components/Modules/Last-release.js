@@ -34,7 +34,6 @@ function Last_Release() {
       </div>
       <div className="last_release-album-button">
         <div className="last_release-listen-wrapper">
-          <div className="last_release-listen-line" />
           <button className="last_release-button">LISTEN</button>
         </div>
       </div>

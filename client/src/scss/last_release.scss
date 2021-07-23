@@ -2,8 +2,8 @@
 
 .last_release-wrapper {
   height: 600px;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
   position: relative;
   width: 100%;
   margin: 0 auto;
@@ -25,6 +25,9 @@
     background-repeat: no-repeat;
     background-size: contain;
     transition: 2s;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
 }
 
@@ -45,6 +48,7 @@
   }
 }
 
+// todo: Кнопка listen вызелает поверх шапки
 .last_release-album-button {
   height: 80px;
   display: flex;
@@ -56,16 +60,6 @@
     padding: 2px 2px 0 2px;
     z-index: 5;
     position: relative;
-
-    .last_release-listen-line {
-      position: absolute;
-      width: 100%;
-      height: 10px;
-      bottom: 0;
-      left: 0;
-      z-index: -1;
-      background-color: #f6538c;
-    }
 
     button {
       width: 300px;
@@ -118,10 +112,12 @@
   width: 100%;
   height: 100%;
   position: absolute;
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
 
 #last_release-pattern {
+  user-select: none;
   position: absolute;
   background-image: url('../assets/img/pattern.png');
   width: 110%;
@@ -131,6 +127,6 @@
   background-repeat: no-repeat;
   background-position-y: -30px;
   background-position-x: -30px;
-  opacity: 0.05;
+  opacity: 0.015;
   z-index: -1;
 }

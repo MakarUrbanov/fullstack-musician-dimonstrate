@@ -20,13 +20,20 @@
     margin-top: 40px;
     cursor: pointer;
     opacity: 0.85;
+    user-select: none;
+  }
+
+  & img:hover {
+    opacity: 1;
   }
 }
 
 .aside-person {
   position: fixed;
   top: 18%;
-  //left: 40px;
+  left: -100%;
   z-index: -1;
   transition: 1.5s;
+  user-select: none;
+  pointer-events: none;
 }
