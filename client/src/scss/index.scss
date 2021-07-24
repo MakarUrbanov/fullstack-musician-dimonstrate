@@ -7,13 +7,19 @@
 @import 'media';
 @import 'songs';
 @import 'insta';
+@import 'link';
 
 body {
   width: 100%;
   height: 100%;
   background-color: #151515;
+  background-image: url('@assets/img/pattern2.png');
 }
 
+.app {
+  width: 100%;
+  height: 100%;
+}
 .screen {
   max-width: 1200px;
   height: 100%;

@@ -8,25 +8,30 @@ export default function ASide() {
   const [changePerson, setChangePerson] = useState('')
 
   useEffect(() => {
-    setTimeout(() => {
-      setChangePerson('40px')
-    }, 1500)
+    if (sessionStorage.getItem('animation-aside') !== 'yes') {
+      setTimeout(() => {
+        setChangePerson('40px')
+      }, 1500)
 
-    setTimeout(() => {
-      setChangePerson('-100%')
-    }, 15000)
+      setTimeout(() => {
+        setChangePerson('-100%')
+      }, 15000)
 
-    setTimeout(() => {
-      setChangePerson('-70px')
-    }, 17000)
+      setTimeout(() => {
+        setChangePerson('-70px')
+      }, 17000)
 
-    setTimeout(() => {
-      setChangePerson('-100%')
-    }, 19000)
+      setTimeout(() => {
+        setChangePerson('-100%')
+      }, 19000)
 
-    setTimeout(() => {
-      setChangePerson('40px')
-    }, 22000)
+      setTimeout(() => {
+        setChangePerson('40px')
+      }, 22000)
+
+      return sessionStorage.setItem('animation-aside', 'yes')
+    }
+    setChangePerson('40px')
   }, [])
 
   return (

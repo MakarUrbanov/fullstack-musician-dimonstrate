@@ -2,8 +2,12 @@
   .aside-person {
     display: none;
   }
-  .main-wrapper {
-    padding-left: 60px;
+  .screen {
+    padding-left: 80px !important;
+  }
+
+  .link-wrapper {
+    //  padding-left: 60px;
   }
   #last_release-back-img {
     background-position-y: 0;
@@ -19,6 +23,10 @@
 }
 
 @media (max-width: 500px) {
+  .screen {
+    padding-left: 20px !important;
+  }
+
   .aside-wrapper {
     display: none;
   }
@@ -26,7 +34,7 @@
     padding-left: 0;
   }
   .songs-slider-wrapper {
-    width: 100% !important;
+    width: 80% !important;
   }
   .songs-image-wrapper {
     width: 100%;
