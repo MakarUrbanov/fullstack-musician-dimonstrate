@@ -17,6 +17,7 @@
 
   img {
     user-select: none;
+    pointer-events: none;
   }
 }
 
@@ -39,24 +40,28 @@
     }
   }
 
-  button {
+  a {
     width: 100%;
-    height: 40px;
-    border: 2px solid white;
-    font-family: $font;
-    font-weight: 200;
-    font-size: 20px;
-    color: white;
-    background-color: transparent;
-    transition: 0.1s linear;
-    user-select: none;
 
-    &:hover {
-      background-color: #f6538c;
-    }
-
-    &:active {
+    button {
+      width: 100%;
+      height: 40px;
+      border: 2px solid white;
+      font-family: $font;
+      font-weight: 200;
+      font-size: 20px;
+      color: white;
       background-color: transparent;
+      transition: 0.1s linear;
+      user-select: none;
+
+      &:hover {
+        background-color: #f6538c;
+      }
+
+      &:active {
+        background-color: transparent;
+      }
     }
   }
 }

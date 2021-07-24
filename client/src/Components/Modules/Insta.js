@@ -31,7 +31,9 @@ function Insta() {
           <span>
             <span>514</span> ПОДПИСЧИКОВ
           </span>
-          <button>SUBSCRIBE</button>
+          <a href="https://www.instagram.com/dimonstrate/" target="_blank">
+            <button>SUBSCRIBE</button>
+          </a>
         </div>
       </div>
       <div className="insta-photos-container">

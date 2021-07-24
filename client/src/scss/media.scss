@@ -11,6 +11,11 @@
 }
 
 @media (max-width: 800px) {
+  .songs-header {
+    h4 {
+      font-size: 40px !important;
+    }
+  }
 }
 
 @media (max-width: 500px) {

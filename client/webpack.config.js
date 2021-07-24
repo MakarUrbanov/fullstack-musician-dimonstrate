@@ -30,6 +30,7 @@ module.exports = {
   output: {
     filename: filename('js'),
     path: path.resolve(__dirname, 'dist'),
+    publicPath: './',
   },
   target: isDev ? 'web' : 'browserslist',
   resolve: {
