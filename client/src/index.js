@@ -13,6 +13,7 @@ import Header from '@components/Header'
 import Main_page from '@components/Pages/Main_page'
 import Admin from '@components/Pages/Admin'
 import Band_Link from '@components/Pages/Band_Link'
+import Quiz from '@components/quiz-delete'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         <Route exact path="/" component={Main_page} />
         <Route exact path="/admin" component={Admin} />
         <Route exact path="/link" component={Band_Link} />
-        <Route exact path="/quiz" component={} />
+        <Route exact path="/quiz" component={Quiz} />
       </Switch>
       {/*</Switch>*/}
     </HashRouter>

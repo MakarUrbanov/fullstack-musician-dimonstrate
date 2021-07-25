@@ -40,15 +40,15 @@ function Insta() {
         <div className="insta-photos-wrapper">
           {photos.map((item, id) => {
             return (
-              <a key={id} href={item.link} target="_blank">
-                <div className="insta-photo-item">
-                  <div
-                    className="insta-photo-image"
-                    style={{ backgroundImage: `url('${item.image}')` }}
-                  />
-                  <span className="insta-photo-image-hovered" />
-                </div>
-              </a>
+              <div key={id} className="insta-photo-item">
+                <div
+                  className="insta-photo-image"
+                  style={{ backgroundImage: `url('${item.image}')` }}
+                />
+                <a href={item.link} target="_blank">
+                  <span className="insta-photo-image-hovered" />{' '}
+                </a>
+              </div>
             )
           })}
         </div>
