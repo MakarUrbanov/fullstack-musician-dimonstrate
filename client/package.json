@@ -7,10 +7,6 @@
         "start": "cross-env NODE_ENV=development webpack serve --open",
         "build": "cross-env NODE_ENV=production webpack --mode production"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/MikhailB10100/template_react-webpack-babel.git"
-    },
     "keywords": [],
     "author": "",
     "license": "ISC",
